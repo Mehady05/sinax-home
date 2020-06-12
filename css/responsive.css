@@ -1,0 +1,1071 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* nav_bar area  */
+    .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+        padding-left: 22px;
+    }
+
+    .banner_details h2 {
+        font-size: 84px;
+        font-weight: 800;
+        color: #ffffff;
+        padding-top: 15px;
+        text-transform: capitalize;
+    }
+
+    .banner_details p {
+        font-family: 'RobotoCondensed';
+        padding-top: 250px;
+    }
+
+    /* our skill area  */
+    .our_skill {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .sigle_skill {
+        margin-top: 62px;
+        background: #ddd;
+    }
+
+    .skill_img_details {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .btn_read_more {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .btn_read_more a {
+        margin-top: 0;
+    }
+
+    /* awesome services  */
+    .awesome_services {
+        padding: 90px 30px;
+    }
+
+
+    /* amazing work  */
+    .amazing_heading h2 {
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .amaz_img .big_img_amaz {
+        height: 311px;
+    }
+
+    .single_awe_img .single_awe_img_overlay p {
+        bottom: 75px;
+    }
+
+    .single_awe_img_overlay_icon a {
+        height: 27px;
+        width: 27px;
+        line-height: 27px;
+        margin-left: 7px;
+    }
+
+
+    /* about us area  */
+    .about_img {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .about_us_details {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about_us_details h6 {
+        padding-top: 30px;
+    }
+
+    .about_us_details a {
+        margin-bottom: 30px;
+    }
+
+    /* brand  */
+    .brand {
+        padding: 50px 0;
+        padding-left: 0px;
+    }
+
+    /* latest news  */
+    .latest_news {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .single_news p::after {
+        width: 271px;
+        top: 85%;
+    }
+
+
+}
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* nav_bar area  */
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .banner_details h2 {
+        font-size: 63px;
+        font-weight: 800;
+        color: #ffffff;
+        padding-top: 49px;
+        text-transform: capitalize;
+    }
+
+    .banner_details p {
+        font-family: 'RobotoCondensed';
+        padding-top: 110px;
+    }
+
+
+    /* our skill area  */
+    .our_skill {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .sigle_skill {
+        margin-top: 62px;
+        background: #ddd;
+    }
+
+    .skill_img_details {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .btn_read_more {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .btn_read_more a {
+        margin-top: 0;
+    }
+
+    /* awesome services  */
+    .awesome_services {
+        padding: 90px 30px;
+    }
+
+
+    /* amazing work  */
+    .amazing_heading h2 {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .amaz_img .big_img_amaz {
+        height: 311px;
+    }
+
+    .single_awe_img .single_awe_img_overlay p {
+        bottom: 100px;
+    }
+
+    .single_awe_img_overlay_icon a {
+        height: 27px;
+        width: 27px;
+        line-height: 27px;
+        margin-left: 7px;
+    }
+
+
+    /* about us area  */
+
+    .about_us_details {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about_us_details h6 {
+        padding-top: 30px;
+    }
+
+    .about_us_details a {
+        margin-bottom: 30px;
+    }
+
+    /* brand  */
+    .brand {
+        padding: 50px 0;
+        padding-left: 0px;
+    }
+
+    /* latest news  */
+    .latest_news {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .single_news p::after {
+        width: 271px;
+        top: 85%;
+    }
+
+
+    /* in this device  */
+    .nav_button i {
+        display: none;
+    }
+
+    .navbar-toggler i {
+        position: absolute;
+        right: 66px;
+        top: 52px;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background: #4E4636;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar-nav li {
+        margin-left: 0;
+    }
+
+    .rigt_btn {
+        right: 50px;
+    }
+
+    .left_btn {
+        left: 50px;
+    }
+
+    .slick-arrow {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .amazing_work {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .all_amazing_btn button {
+        padding-top: 27px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .counter_part {
+        background: #333333;
+        padding: 40px 0;
+    }
+
+    .awe_team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .single_awe_img_overlay_icon {
+        position: absolute;
+        bottom: 30px;
+        left: 34px;
+        transform: translatex(0);
+    }
+
+    .brand {
+        margin-left: 30px;
+    }
+
+    .single_news p::after {
+        width: 87%;
+        top: 88%;
+    }
+
+    .footer_bottom ul li a {
+        font-size: 11px;
+        color: #bdbdbd;
+        transition: all .3s linear;
+    }
+
+    .footer_bottom ul li a:hover {
+        background: red;
+        padding: 5px 5px;
+    }
+
+    .mix_wrap {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: -30px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* nav_bar area  */
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .banner_details h2 {
+        font-size: 63px;
+        font-weight: 800;
+        color: #ffffff;
+        padding-top: 49px;
+        text-transform: capitalize;
+    }
+
+    .banner_details p {
+        font-family: 'RobotoCondensed';
+        padding-top: 110px;
+    }
+
+
+    /* our skill area  */
+    .our_skill {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .sigle_skill {
+        margin-top: 62px;
+        background: #ddd;
+    }
+
+    .skill_img_details {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .btn_read_more {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .btn_read_more a {
+        margin-top: 0;
+    }
+
+    /* awesome services  */
+    .awesome_services {
+        padding: 90px 30px;
+    }
+
+
+    /* amazing work  */
+    .amazing_heading h2 {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .amaz_img .big_img_amaz {
+        height: 311px;
+    }
+
+    .single_awe_img .single_awe_img_overlay p {
+        top: 220px;
+    }
+
+    .single_awe_img .single_awe_img_overlay p {
+        font-size: 15px;
+        line-height: 26px;
+        color: #ebebeb;
+        font-family: 'RobotoCondensed';
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .single_awe_img_overlay_icon a {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        margin-left: 7px;
+    }
+
+
+    /* about us area  */
+
+    .about_us_details {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .about_us_details h6 {
+        padding-top: 30px;
+    }
+
+    .about_us_details a {
+        margin-bottom: 30px;
+    }
+
+    /* brand  */
+    .brand {
+        padding: 50px 0;
+        padding-left: 0px;
+    }
+
+    /* latest news  */
+    .latest_news {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .single_news p::after {
+        width: 271px;
+        top: 85%;
+    }
+
+
+    /* in this device  */
+    .nav_button i {
+        display: none;
+    }
+
+    .navbar-toggler i {
+        position: absolute;
+        right: 66px;
+        top: 52px;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background: #4E4636;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar-nav li {
+        margin-left: 0;
+    }
+
+    .rigt_btn {
+        right: 50px;
+    }
+
+    .left_btn {
+        left: 50px;
+    }
+
+    .slick-arrow {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .amazing_work {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+
+    .all_amazing_btn {
+        text-align: center !important;
+    }
+
+    .all_amazing_btn button {
+        padding-top: 27px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .counter_part {
+        background: #333333;
+        padding: 40px 0;
+    }
+
+    .awe_team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .single_awe_img_overlay_icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50% -50%);
+    }
+
+    .brand {
+        margin-left: 10px;
+    }
+
+    .single_news p::after {
+        width: 87%;
+        top: 88%;
+    }
+
+    .footer_bottom ul li a {
+        font-size: 11px;
+        color: #bdbdbd;
+        transition: all .3s linear;
+    }
+
+    .footer_bottom ul li a:hover {
+        background: red;
+        padding: 5px 5px;
+    }
+
+    .mix_wrap {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: -30px;
+    }
+
+
+    .count_details {
+        margin-bottom: 53px;
+    }
+
+    .sinax {
+        padding: 30px 0;
+    }
+
+    .foot_left_details p {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .foot_btn_left a {
+        margin-top: 28px;
+        margin-bottom: 60px;
+    }
+
+    .foot_middle h3 {
+        font-size: 27px;
+    }
+
+    .foot_middle p {
+        padding-top: 15px;
+    }
+
+    .foot_right {
+        margin-top: 60px;
+    }
+
+    .foot_right h3 {
+        font-size: 27px;
+    }
+
+    .foot_right p {
+        padding-top: 20px;
+    }
+
+    .footer_bottom {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .footer_bottom ul,
+    li {
+        margin-left: 0px;
+    }
+
+    .footer_bottom ul li a {
+        padding: 10px 13px;
+        font-size: 15px;
+    }
+
+    .footer_bottom p {
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* nav_bar area  */
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 0px;
+    }
+
+    .navbar a h5 {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+        color: #ffffff;
+        line-height: 0;
+        padding-left: 0;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    .navbar.navbar-expand-lg.sticky {
+        height: 88px;
+    }
+
+    .banner_details h2 {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+
+    .banner_details p {
+        font-family: 'RobotoCondensed';
+        padding-top: 180px;
+    }
+
+    .banner_btn a {
+        padding: 14px 49px;
+    }
+
+    .skill_heading h6 {
+        font-size: 20px;
+    }
+
+    .skill_heading p {
+        font-size: 18px;
+    }
+
+    /* our skill area  */
+    .our_skill {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .sigle_skill {
+        margin-top: 62px;
+        background: #ddd;
+    }
+
+    .skill_img_details {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .skill_img_details h5 {
+        font-size: 25px;
+    }
+
+    .skill_img_details p {
+        font-size: 18px;
+    }
+
+
+    .btn_read_more {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .btn_read_more a {
+        font-size: 17px;
+    }
+
+    /* awesome services  */
+    .awesome_services {
+        padding: 90px 30px;
+    }
+
+    .awesome_heading_details h5 {
+        font-size: 20px;
+    }
+
+    .awesome_heading_details h2 {
+        font-size: 38px;
+    }
+
+    .awesome_heading_details p {
+        font-size: 21px;
+        padding: 0;
+    }
+
+    .single_awesome {
+        margin-top: 67px;
+        padding-top: 32px;
+        padding-bottom: 30px;
+        background: #ffffff;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: -40px;
+    }
+
+    .sin_awe_head h3 {
+        font-size: 24px;
+    }
+
+    .sin_awe_head p {
+        font-size: 20px;
+    }
+
+    .all_amazing_btn.text-md-center {
+        text-align: center !important;
+    }
+
+    /* amazing work  */
+    .amazing_heading h2 {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .amaz_img .big_img_amaz {
+        height: 311px;
+    }
+
+    .single_awe_img .single_awe_img_overlay p {
+        top: 220px;
+    }
+
+    .single_awe_img .single_awe_img_overlay p {
+        font-size: 15px;
+        line-height: 26px;
+        color: #ebebeb;
+        font-family: 'RobotoCondensed';
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0;
+        top: 152px;
+        font-size: 17px;
+    }
+
+    .single_awe_img_overlay_icon a {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        margin-left: 7px;
+    }
+
+
+    /* about us area  */
+
+    .about_us_details {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about_us_details h6 {
+        padding-top: 30px;
+        font-size: 22px;
+        color: #878787;
+        font-family: 'RobotoCondensed';
+        text-transform: uppercase;
+    }
+
+    .about_us_details p {
+        font-size: 22px;
+        color: #666666;
+        font-family: 'RobotoCondensed';
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    .about_us_details p {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    .about_us_details a {
+        margin-bottom: 30px;
+    }
+
+    /* brand  */
+    .brand {
+        padding: 50px 0;
+        padding-left: 0px;
+    }
+
+    /* latest news  */
+    .latest_news_details h5 {
+        font-size: 25px;
+    }
+
+    .latest_news {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .latest_news_details p {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .single_news h3 {
+        font-size: 30px;
+    }
+
+    .single_news h6 {
+        font-size: 25px;
+    }
+
+    .single_news p {
+        font-size: 20px;
+    }
+
+    .single_news p::after {
+        width: 271px;
+        top: 85%;
+    }
+
+
+    /* in this device  */
+    .nav_button i {
+        display: none;
+    }
+
+    .navbar-toggler i {
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background: #4E4636;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .navbar-nav li {
+        margin-left: 0;
+        padding-top: 25px;
+    }
+
+    .rigt_btn {
+        right: 50px;
+    }
+
+    .left_btn {
+        left: 50px;
+    }
+
+    .slick-arrow {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .amazing_work {
+        padding-top: 130px;
+        padding-bottom: 30px;
+    }
+
+    .all_amazing_btn button {
+        padding-top: 0px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .amazing_heading h5 {
+        font-size: 24px;
+    }
+
+
+
+    .margin_left {
+        margin-left: 0 !important;
+    }
+
+    .counter_part {
+        background: #333333;
+        padding: 40px 0;
+    }
+
+    .count_details h5 {
+        font-size: 20px;
+    }
+
+    .awe_team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .awe_team_details h5 {
+        font-size: 25px;
+    }
+
+    .awe_team_details p {
+        font-size: 20px;
+    }
+
+
+    .single_awe_img_overlay_icon {
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        display: flex;
+    }
+
+    .brand {
+        margin-left: 10px;
+    }
+
+    .single_news p::after {
+        width: 87%;
+        top: 88%;
+    }
+
+    .footer_bottom ul li a {
+        font-size: 11px;
+        color: #bdbdbd;
+        transition: all .3s linear;
+    }
+
+    .footer_bottom ul li a:hover {
+        background: red;
+        padding: 5px 5px;
+    }
+
+    .mix_wrap {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .amaz_img .big_img_amaz {
+        margin-top: 30px;
+    }
+
+    .count_details {
+        margin-bottom: 53px;
+    }
+
+    .sinax {
+        padding: 30px 0;
+    }
+
+    .foot_left_details p {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .foot_btn_left a {
+        margin-top: 28px;
+        margin-bottom: 60px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .foot_middle h3 {
+        font-size: 27px;
+    }
+
+    .foot_middle p {
+        font-size: 17px;
+        padding-top: 15px;
+    }
+
+    .foot_right {
+        margin-top: 60px;
+    }
+
+    .foot_right h3 {
+        font-size: 27px;
+    }
+
+    .foot_right p {
+        padding-top: 20px;
+        font-size: 17px;
+    }
+
+    .footer_bottom {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .footer_bottom ul,
+    li {
+        margin-left: 0px;
+    }
+
+    .footer_bottom ul li a {
+        padding: 10px 13px;
+        font-size: 15px;
+    }
+
+    .footer_bottom p {
+        font-size: 16px;
+    }
+
+
+}
